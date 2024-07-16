@@ -8,11 +8,11 @@ function sameNumbers(digit) {
       break;
     }
   }
-  if(sameNum) {
+  if (sameNum) {
     console.log("true");
   } else {
     console.log("false");
-  } 
+  }
 
   function sumOfNumbers(num) {
     let splitedDigit = num.toString().split("");
@@ -27,5 +27,3 @@ function sameNumbers(digit) {
   let sum = sumOfNumbers(digit);
   console.log(sum);
 }
-
-sameNumbers(22222222)
