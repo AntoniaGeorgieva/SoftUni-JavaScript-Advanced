@@ -1,5 +1,5 @@
 function previousDay(year, month, day) {
-  if(day != 1) {
+  if (day != 1) {
     day -= 1;
   } else {
     switch (month - 1) {
@@ -13,19 +13,17 @@ function previousDay(year, month, day) {
         day = 31;
         break;
       default:
-        day = 30; 
+        day = 30;
         break;
     }
 
-    if(month == 1) {
+    if (month == 1) {
       month = 12;
       year -= 1;
     } else {
       month -= 1;
-    } 
+    }
   }
 
   console.log(`${year}-${month}-${day}`)
 }
-
-previousDay(2016, 12, 1)
