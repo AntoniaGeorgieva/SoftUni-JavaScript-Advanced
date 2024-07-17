@@ -3,7 +3,7 @@ function cookingByNumbers(startingPoint, operation1, operation2, operation3, ope
 
   let operations = operation1 + " " + operation2 + " " + operation3 + " " + operation4 + " " + operation5;
   let operationsArr = operations.toString().split(" ");
-  
+
   for (const operation of operationsArr) {
     switch (operation) {
       case "chop":
@@ -24,7 +24,6 @@ function cookingByNumbers(startingPoint, operation1, operation2, operation3, ope
     }
     console.log(finalPoint);
   }
-  
 }
 
 cookingByNumbers('9', 'dice', 'spice', 'chop', 'bake', 'fillet')
