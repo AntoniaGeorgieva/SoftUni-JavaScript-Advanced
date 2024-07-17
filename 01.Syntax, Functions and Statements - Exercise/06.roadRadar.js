@@ -66,5 +66,3 @@ function roadRadar(speed, area) {
       break;
   }
 }
-
-roadRadar(21, 'residential')

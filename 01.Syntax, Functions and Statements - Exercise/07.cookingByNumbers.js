@@ -25,5 +25,3 @@ function cookingByNumbers(startingPoint, operation1, operation2, operation3, ope
     console.log(finalPoint);
   }
 }
-
-cookingByNumbers('9', 'dice', 'spice', 'chop', 'bake', 'fillet')
