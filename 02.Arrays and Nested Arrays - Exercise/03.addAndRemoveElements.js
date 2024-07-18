@@ -3,7 +3,7 @@ function addAndRemoveElements(arr) {
   let num = 1;
 
   for (let i = 0; i < arr.length; i++) {
-    if(arr[i] == "add") {
+    if (arr[i] == "add") {
       numsArr.push(num);
     } else {
       numsArr.pop();
@@ -11,15 +11,9 @@ function addAndRemoveElements(arr) {
     num++;
   }
 
-  if(numsArr.length >= 1) {
+  if (numsArr.length >= 1) {
     console.log(numsArr.join('\n'));
+  } else {
+    console.log("Empty");
   }
- 
 }
-
-addAndRemoveElements(['add', 
-  'add', 
-  'remove', 
-  'add', 
-  'add']
-  )
