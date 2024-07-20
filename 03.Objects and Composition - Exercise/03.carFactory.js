@@ -37,5 +37,5 @@ function carFactory(obj) {
     wheels: [wheels, wheels, wheels, wheels]
   };
 
-  console.log(newObj)
+  return newObj
 }
