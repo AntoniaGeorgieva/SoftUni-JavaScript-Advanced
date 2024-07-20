@@ -4,5 +4,5 @@ function constructionCrew(obj) {
     obj.dizziness = false;
   }
 
-  console.log(obj);
+  return obj;
 }
